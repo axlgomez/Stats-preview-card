@@ -1,0 +1,130 @@
+@media screen and (min-width: 1440px) {
+    .container
+    {
+        margin-top: 50px;
+
+        .card
+        {
+            display: flex;
+            flex-direction: row-reverse;
+            max-width: 1170px;
+            height: 70vh;
+            border-radius: 10px;
+
+            .card__img
+            {
+
+                img
+                {
+                    border-radius: 0 10px 10px 0px;
+                    height: 100%;
+                }
+
+                .card__bg
+                {
+                    top: 85px;
+                    width: 578px;
+                    height: 460px;
+                    border-radius: 0 10px 10px 0px;
+                }
+            }
+
+            .card__content
+            {
+                width: 55%;
+                display: flex;
+                flex-direction: column;
+
+                h3 
+                {
+                    font-size: 37px;
+                    width: 450px;
+                    margin-top: 52px;
+                    margin-left: 65px;
+                    text-align: start;
+                }
+
+                p
+                {
+                    width: 400px;
+                    font-size: 16px;
+                    text-align: start;
+                    margin-left: 65px;
+
+                }
+            }
+
+            .card__dates
+            {
+                margin-top: 100px;
+                position: relative;
+
+                .card__dates1
+                {
+                    h4 
+                    {
+                        position: absolute;
+                        top: -40px;
+                        left: 65px;
+                        font-size: 24px;
+                        font-weight: 700;
+                        letter-spacing: 1px;
+                    }
+
+                    p 
+                    {
+                        font-size: 13px;
+                        position: absolute;
+                        top: -10px;
+                    }
+                }
+
+                .card__dates2
+                {
+                    
+                    h4 
+                    {
+                        position: absolute;
+                        left: 220px;
+                        top: -40px;
+                        font-size: 24px;
+                        font-weight: 700;
+                        letter-spacing: 1px;
+                    }
+
+                    p
+                    {
+                        position: absolute;
+                        font-size: 13px;
+                        top: -10px;
+                        left: 155px;
+                    }
+                }
+
+                .card__dates3
+                {
+
+                    h4
+                    {
+                        position: absolute;
+                        font-size: 24px;
+                        font-weight: 700;
+                        top: -40px;
+                        right: 160px;
+                        letter-spacing: 1px;
+                    }
+
+                    p 
+                    {
+                        font-size: 13px;
+                        position: absolute;
+                        top: -10px;
+                        left: 303px;
+                    }
+                }
+                
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,94 @@
+@import "general";
+@import "media1440px";
+
+.container
+{
+    max-width: 100%;
+    padding-top: 35px;
+}
+
+.card 
+{
+    max-width: 250px;
+    height: 90vh;
+    margin: auto;
+    background-color: $dark-desaturated-blue;
+    border-radius: 5px;
+
+    .card__img
+    {
+
+        img
+        {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            position: relative;
+        }
+
+        .card__bg
+        {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background: $soft-violet;
+            width: 250px;
+            height: 183px;
+            position: absolute;
+            top: 35px;
+            mix-blend-mode: multiply;
+            opacity: .9;
+        }
+    }
+
+    .card__content
+    {
+
+        h3 
+        {
+            font-size: 20px;
+            padding-top: 25px;
+            padding-bottom: 14px;
+            color: #fff;
+            width: 205px;
+            margin: auto;
+            text-align: center;
+            letter-spacing: .5px;
+
+            span
+            {
+                color: $soft-violet;
+            }
+        }
+
+        p 
+        {
+            color: $slightly-transparent-white-sh;
+            font-size: 11px;
+            width: 190px;
+            margin: auto;
+            text-align: center;
+            line-height: 1.7;
+        }
+    }
+
+    .card__dates
+    {
+        padding-top: 30px;
+        text-align: center;
+
+        h4 
+        {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        p
+        {
+            font-family: $font-lexend;
+            text-transform: uppercase;
+            font-size: 9px;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+    }
+}
